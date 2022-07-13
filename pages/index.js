@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          こんにちは、世界！ <a href="http://binboz.com/">貧乏ず</a>
+          こんにちは、世界！ <a href="#">#</a>
         </h1>
 
         <p className={styles.description}>
