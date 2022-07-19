@@ -13,14 +13,18 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          こんにちは、世界！ <a href="#">#</a>
+          こんにちは、世界！ <a href="resus/index.js">apiページに飛ぶ</a>
         </h1>
 
         <p className={styles.description}>
           トップページとapi取得ページを作るよ
           {/* <code className={styles.code}>pages/index.js</code> */}
         </p>
-        <p>アイウエオ</p>
+        <ul>
+          <li>
+            アイウエオ
+          </li>
+        </ul>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
